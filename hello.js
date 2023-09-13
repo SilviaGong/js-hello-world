@@ -1,10 +1,28 @@
+const input = require('readline-sync');
+
+let userAnswer = input.question("Hey there bubby ol pal how's the weather today?");
+
+console.log(`String interpolate:Wow!So the weather is ${userAnswer} today?neat!`);
+console.log('Concatenated: wow! so the weather is' + userAnswer + 'today?');
+
 /*  
 Welcome, new coder. 
-Enter your code on line 7 to print 'Hello, World!' 
+Declare three variables:
+1) your name
+2) your age
+3) your favorite fruit
+
 to the console (the panel on the right)
 */
 
 console.log("Hello，World!");
+
+let name = 'Yumangong';
+let age = 33;
+let favoriteFruit = 'Banana';
+let amount = 3
+
+console.log(amount + age + name + favoriteFruit);
 
 /*  
 Next, PLAY! 
@@ -19,4 +37,4 @@ Modify your code on line 7 to try to accomplish the tasks listed below:
    7. Print two messages on the same line.
    8. Print a message that contains quote marks, such as Quoth the Raven "Nevermore".
    9. Other. You choose!
-*/
+ */
