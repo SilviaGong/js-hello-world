@@ -3,7 +3,7 @@ const input = require('readline-sync');
 let userAnswer = input.question("Hey there bubby ol pal how's the weather today?");
 
 console.log(`String interpolate:Wow!So the weather is ${userAnswer} today?neat!`);
-console.log('Concatenated: wow! so the weather is' + userAnswer + 'today?');
+console.log('Concatenated: wow! so the weather iss' + userAnswer + 'today?');
 
 /*  
 Welcome, new coder. 
